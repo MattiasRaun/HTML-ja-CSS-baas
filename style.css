@@ -1,0 +1,550 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Header: Logo (left), Top Menu (right) */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-menu ul li {
+    margin-left: 20px;
+}
+
+.top-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Menu: Centered */
+.main-menu {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+.main-menu ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: 500px;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    position: relative;
+}
+
+.hero-text-block {
+    background-color: rgba(0, 0, 0, 0.8); /* 80% opacity */
+    padding: 20px;
+    color: white;
+    display: inline-block;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+/* Four Sections */
+.four-sections {
+    display: flex;
+}
+
+.section {
+    flex: 1;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.section h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/* Product Container */
+.product-container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    grid-gap: 10px;
+}
+
+.product {
+    text-align: center;
+    width: 25%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.product p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Wholesalers' Logos */
+.wholesalers-logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10%;
+    background-color: #f9f9f9;
+}
+
+.wholesalers-logos a {
+    display: block;
+}
+
+.wholesalers-logos img {
+    width: 90px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* General Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    font-size: 14px;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+/* Footer Sections */
+.footer-section {
+    padding: 0 15px;
+}
+
+/* Large Section (50%) */
+.footer-section.large {
+    flex: 1;
+    max-width: 50%;
+}
+
+.footer-section.large p {
+    line-height: 1.6;
+}
+
+/* Small Sections (25%) */
+.footer-section.small {
+    flex: 1;
+    max-width: 25%;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #bbb;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 13px;
+}
+
+/* Tablet View (768px to 1024px) */
+@media (max-width: 1024px) {
+    /* Products: 2 in a row */
+    .product-row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product {
+        width: 100%;
+    }
+    /* Logos: 4 logos, scrollable */
+    /* .wholesalers-logos {
+        display: flex;
+        overflow-x: scroll;
+        justify-content: flex-start;
+        padding: 20px 0;
+    }
+
+    .wholesalers-logos img {
+        width: 60px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    */
+    /* Footer: 1 large + 2 small stacked */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section.large {
+        margin-bottom: 20px;
+    }
+
+    .footer-section.small {
+        max-width: 100%;
+    }
+}
+
+/* Mobile View (Up to 767px) */
+@media (max-width: 767px) {
+    .four-sections {
+        display: block;
+    }
+    .section {
+        width: 90%;
+        height: 200px;
+        margin: 20px 5% 10px 5%;
+    }
+    /* Products: 1 in a row */
+    .product-row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .product-container {
+        max-width: 900px;
+        margin: 0;
+        padding: 40px 5% 0 5%;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    /* Logos: 2 logos in a row, scrollable */
+    .wholesalers-logos {
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px 10px;
+        scroll-behavior: smooth;
+        overflow-x: scroll;
+    }
+
+    .wholesalers-logos img {
+        width: 90px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    /* Footer: All sections full width and stacked */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer-section.small {
+        max-width: 100%;
+    }
+
+    .footer-section.large {
+        max-width: 100%;
+    }
+}
+
+/* ETTEVÕTTEST lehe CSS */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Top Header: Logo (left), Top Menu (right) */
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.top-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-menu ul li {
+    margin-left: 20px;
+}
+
+.top-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.top-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Menu */
+.main-menu {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+.main-menu ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Content Section */
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.footer-section {
+    padding: 0 15px;
+}
+
+.footer-section.large {
+    flex: 1;
+    max-width: 50%;
+}
+
+.footer-section.small {
+    flex: 1;
+    max-width: 25%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: #bbb;
+}
+
+/* Tablet View (768px to 1024px) */
+@media (max-width: 1024px) {
+    .content-section {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-top: 20px;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section.large {
+        margin-bottom: 20px;
+    }
+
+    .footer-section.small {
+        max-width: 100%;
+    }
+}
+
+/* Mobile View (Up to 767px) */
+@media (max-width: 767px) {
+    .content-section {
+        display: block;
+    }
+
+    .main-content {
+        margin-bottom: 20px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
