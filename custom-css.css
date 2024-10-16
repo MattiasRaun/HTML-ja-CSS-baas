@@ -1,0 +1,79 @@
+/* Mattias - Design Custom Edit - START */
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #0065302e;
+    background-image: url(images/body-bg-image.png);
+    background-repeat: repeat;
+}
+
+#topbar {
+    background-color: #ffb9002e;
+}
+
+#topbar .container {
+    color: #f1641d;
+    background-image: url(images/body-bg-image.png);
+}
+
+.top-bar-text p {
+    color: #e50000 !important;
+}
+
+.container.top-header {
+    color: #000000;
+}
+
+.top-menu ul li a {
+    color: #ffffff;
+}
+
+.main-menu {
+    background-color: #4427f1;
+}
+
+div.container.hero-content {
+    background-color: rgba(241, 157, 39, .85);
+}
+
+.hero-content h1 {
+    font-size: 3em;
+}
+
+.hero-content p {
+    font-size: 1.3em;
+    color: #6d6d6d;
+}
+
+body.home .main-container {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.title-subtitle-section h1 {
+    color: #e57441;
+}
+
+.title-subtitle-section h2 {
+    color: #00178d;
+}
+
+.product-container {
+    max-width: 1150px;
+}
+
+.product-grid {
+    gap: 25px;
+}
+
+.product {
+    background-color: rgb(249 0 0 / 35%);
+    line-height: 150%;
+}
+
+.product p.price {
+    color: #e49f45;
+    background-color: #e50000;
+}
+
+/* Mattias - Design Custom Edit - END */
