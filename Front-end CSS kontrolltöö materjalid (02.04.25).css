@@ -1,0 +1,1160 @@
+ÕPPEMATERJALID:
+https://www.w3schools.com/css/
+https://www.w3schools.com/cssref/css_entities.php
+
+CSS syntax ja stiilide muutmine
+
+1.
+h1 {
+  color: #000;
+  text-align: center;
+  font-size: 35px;
+}
+
+Muuda H1 (Pealkiri 1) värv punaseks. Kasuta vastuses RGB väärtust (https://www.w3schools.com/css/css_colors_rgb.asp)
+
+Reasta tekst vasakule ning lisa fondisuurusele 7px.
+
+Vastus:
+
+
+
+2.
+p {
+  color: #303030;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+Vaheta tekstilõigu font Times New Roman vastu, tee teksti suuruseks 12px.
+
+Vastus:
+
+
+
+3.
+h2 {
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+Muuda pealkirja tekst tavaliseks (uppercase asemel) ning suurenda alumist vahe 100% võrra.
+
+Vastus:
+
+
+
+4. 
+body {
+  background-color: #EBEBEB;
+  font-family: verdana;
+}
+
+Muuda body taustavärv valgeks. Lisa teksti värvi muutuja ning määra värviks #FFF. Kasuta vastuses RGB väärtust (https://www.w3schools.com/css/css_colors_rgb.asp)
+
+Vaheta font Times New Roman vastu.
+
+Vastus:
+
+
+
+5. 
+a {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+Lisa linkidele alumine joon (undeline) ning muuda värvust. Lisa linkidele taustavärv.
+
+Vastus:
+
+
+
+6. 
+div {
+  width: 200px;
+  height: 100px;
+}
+
+Suurenda laiust (width) 50px võrra ning lisa #000 2px pidevjoon.
+Määra ära maksimaalseks div maksimaalseks laiuseks 200px. 
+
+
+Vastus:
+
+
+
+7. 
+.box {
+  margin: 20px;
+  padding: 10px;
+}
+
+Eemalda marginid. Määra padding üleval / all / vasakul / paremal vastavalt: 20px / 20px / 15px / 15px
+
+Lisa tasutavärvuseks must. Kasuta vastuses RGB väärtust (https://www.w3schools.com/css/css_colors_rgb.asp)
+
+Vastus:
+
+
+
+8. 
+.container {
+  border: 1px solid black;
+}
+
+Muuda border väärtuse joon double vastu, määra paksuseks 3px, asenda värv punasega. Kasuta vastuses RGB väärtust (https://www.w3schools.com/css/css_colors_rgb.asp)
+
+Vastus:
+
+
+
+9. 
+.shadow-box {
+  box-shadow: none;
+}
+
+Lisa vari (shadow): 5px horizontal, 5px vertical, 10px blur, and gray color.
+
+Anna kastile mõõtmed (kõrgus ja laius).
+
+Vastus:
+
+
+
+10. 
+section {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+Määrale sektsiooni laiuseks (width) 250px ning korrigeeri etteantud elemente nii, et need ei oleks vastuolus sektsioonile määratud põhilaiusega.
+
+Vastus:
+
+
+
+11. 
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 200px;
+  background-color: #FF0000;
+  padding: 10px;
+}
+
+Muuda kõikide tulpade laiused ühelaiuseks. Vaheta tasutavärv valge vastu. Kasuta vastuses RGB väärtust (https://www.w3schools.com/css/
+
+Vastus:
+
+
+
+12. 
+<div class="custom-block">
+    <p>Muuda teksti värvi ja suurust</p>
+</div>
+
+Kirjuta kood ümber selliselt, et tehtud muudatused toimuvad ainult konkreetses kohas, mitte läbi terve lehe:
+
+p {
+  color: #FF0000;
+}
+
+Muuda tekstilõigu värvus mustaks, määra suuruseks 24px, määra reakõrguseks 32px.
+
+Vastus:
+
+Muuda kood:
+p {
+  color: #FF0000;
+}
+
+
+
+13. 
+<div>
+    <p class="custom-paragraph">Muuda teksti värvi ja suurust</p>
+</div>
+
+Kirjuta kood ümber selliselt, et tehtud muudatused toimuvad ainult konkreetses kohas, mitte läbi terve lehe:
+
+p {
+  color: #FF0000;
+}
+
+Muuda tekstilõigu värvus mustaks, määra suuruseks 24px, määra reakõrguseks 32px.
+
+Vastus:
+
+Muuda kood:
+p {
+  color: #FF0000;
+}
+
+
+
+14. 
+h1, h2 {
+  font-weight: bold;
+}
+
+Muuda/Lisa koodi selliselt, et H2 pealkiri muutub italic ning fondi paksus 400 peale, H1 ei muutu.
+
+Vastus:
+
+
+
+15. 
+.list li {
+  list-style-type: square;
+}
+
+Muuda koodis loetelu stiili (square -> mingi teine). Lisa reakõrgus 125% ning marginid ülesse (10px) ja alla (5px).
+
+Vastus:
+
+
+
+16. 
+button {
+  background-color: green;
+}
+
+Muuda nupu tasutavärv punaseks (#FF0000), lisa paddingud üles/alla 20px, vasakule/paremale 30px, lisa nupu ümber joon 1px solid must. 
+
+Vastus:
+
+
+
+17. 
+input {
+  border: 2px solid blue;
+}
+
+Muuda border stiiliks dashed ning muuda värvikood RGB vastu. Lisa input-le taustavärv. Määra border nurkade raadiuseks 10px.
+
+Vastus:
+
+
+
+18. 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #FFF;
+  }
+}
+
+Muuda koodi selliselt, et alla 800px oleks taustavärv #FFF. Muuda / Lisa koodi selliselt, et alla 500px oleks taustavärviks #EBEBEB; 
+
+Vastus:
+
+
+
+19. 
+@media screen and (min-width: 600px) {
+  body {
+    background-color: #FFF;
+  }
+}
+
+Muuda koodi selliselt, et üle 400px oleks taustavärv #FFF. Muuda / Lisa koodi selliselt, et alla 600px oleks taustavärviks #EBEBEB; 
+
+Vastus:
+
+
+
+20. 
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  body {
+    background-color: #FFF;
+  }
+}
+
+Muuda koodi selliselt, et vahemikus 600px kuni 900px oleks taustavärv valge. Alla 600px oleks taustavärv must (#000). Üle 900px oleks taustavärv punane (#FF0000).
+
+Vastus:
+
+
+
+21. 
+.container {
+  width: 100%;
+  padding: 0%;
+  background-color: #000;
+}
+
+Muuda koodi selliselt, et laius oleks 80% ning padding külgedelt 10% ning ülevalt/alt vastavalt 30px/80px.
+
+Vastus:
+
+
+
+22. 
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+Määra piltide maksimaalseks suuruseks 600px ning lisa piltide ümber pidevjoon 1px solid #000.
+
+Vastus:
+
+
+
+23. 
+.element {
+  transform: rotate(0deg);
+  background-color: #FF0000;
+  padding: 20px 30px;
+}
+
+Pööra elementi 50 graadi võrra. Muuda taustavärv mustaks. Määra paddingud vastavalt ülevalt/paremalt/alt/vasakult: 30px 20px 40px 15px
+
+Vastus:
+
+
+
+24. 
+.transparent-box {
+  opacity: 1;
+  background-color: #FF0000;
+  padding: 20px 30px;
+}
+
+Määra kasti läbipaistvuseks 50%. Lisa marginid vastavalt ülesse 30px, alla 20px, külgedele 0px.
+
+Vastus:
+
+
+
+25. 
+div {
+  position: relative;
+}
+
+Määra div´le fikseeritud asukoht (fixed) selliselt, et ta asetseks ülemises paremas nurgas (0 px eemal nurgast).
+
+Vastus:
+
+
+
+26. 
+.image {
+  filter: none;
+}
+
+Lisa pildile must-valge filter. Lisa talle ümber tumehall pidevjoon (solid) paksusega 3px. Lisa box-shadow (https://www.w3schools.com/cssref/css3_pr_box-shadow.php)
+
+Vastus:
+
+
+
+27. 
+.box {
+  display: block;
+}
+
+Eemalda .box classiga märgitud element lehelt.
+
+Vastus:
+
+
+
+28. 
+.box {
+  display: block;
+}
+
+Peida .box classiga märgitud element selliselt, et ta lehele jääb enda kohale alles, aga peidetuna.
+
+Vastus:
+
+
+
+28. 
+.text {
+  text-shadow: none;
+  letter-spacing: 0;
+  line-height: 150%;
+}
+
+Lisa .text´le 2px #000 vari. Määra tähtede vaheks 2px. Muuda reakõrgus 2x väiksemaks.
+
+
+II osa
+
+1.
+h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+}
+
+Muuda h1 värviks #3498db. joonda tekst paremale. Muuda fondi suurus 32px peale.
+
+Vastus:
+
+
+
+2. 
+p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+Muuda p fondiks "Times New Roman", serif. Suurenda fondi suurust 120% peale. Määra rea kõrguseks 150%.
+
+Vastus:
+
+
+
+3. 
+body {
+  background-color: #F4F4F4;
+  color: #333;
+  margin: 20px;
+}
+
+Määra taustavärviks #1A1A1A. Teksti värviks #333. Asenda margin -> padding ning määra üles/alla väärtusteks 30px, vasakule/paremale 20px.
+
+Vastus:
+
+
+
+4. 
+a {
+  text-decoration: none;
+  color: #555;
+  font-weight: normal;
+}
+
+
+Lisa linkidele alumine joon (undeline). Muuda lingi värvus punaseks (#FF0000). Lisa linkidele taustavärv.
+
+Vastus:
+
+
+
+4.1
+a {
+  text-decoration: none;
+  color: #555;
+  font-weight: normal;
+}
+
+Muuda "Vastus:" koodi selliselt, et kui hiirega lingi peale minna (hover), siis muutub a väärtus selliseks nagu ta vastuses on.
+
+Muuda taustavärv läbipaistvaks (transparent).
+
+Vastus:
+
+a {
+  text-decoration: underline;
+  color: #333;
+  font-weight: 700;
+}
+
+5. 
+div {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+Suurenda laiust (width) 50px võrra. Eemalda määratud kõrgus. Muuda piirjoon katkendlikuks (dashed), värv #2980b9 vastu.
+
+Vastus:
+
+
+
+6. 
+div {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+}
+
+Määra div laiuseks (width) 80% ekraanist. Eemalda fikseeritud kõrgus. Pane div 10% vasakust äärest ja 30px ülevalt ja alt eemale. Paremast äärest auto. Muuda taustavärv #2980b9 vastu.
+
+Vastus:
+
+
+
+7. 
+div {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #000;
+  background: #EEE;
+  transition: background 0.3s ease;
+} 
+
+Lisa elemendile transition, kus hiirega peale minnes (hover):
+- taust muutub #EBEBEB värvi
+- piirjoon (border) ümbert kaob ära
+- tekst div sees muutub boldiks.
+
+Vastus:
+
+
+
+8. 
+.container {
+  border: 1px solid black;
+}
+
+Muuda border väärtuse joon double vastu. Määra joone paksuseks 3px. Asenda joone värv punasega.
+
+Kaota ära vasakpoolne ja parempoolne joon.
+
+Vastus:
+
+
+
+9. 
+.container {
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+Muuda margin: ülemine/parempoolne/alumine/vasakpoolne vastavalt 30px/20px/20px/20px
+Muuda padding: vasak/parem 20px ja üles/alla 30px
+Muuda kasti nurkade raadiust vastavalt: ülemised nurgad: 15px / alumised nurgad 0px
+
+Vastus:
+
+10.
+.shadow-box {
+  box-shadow: none;
+}
+
+Lisa vari (shadow): 5px horizontal, 5px vertical, 10px blur, and #333 color.
+
+Anna kastile mõõtmed (kõrgus ja laius).
+
+Vastus: 
+
+11. 
+.box {
+  box-shadow: 2px 2px 5px #888;
+  border: 1px solid #222;
+  background-color: #EEE;
+}
+
+Suurenda shadow blur 15px peale. Muuda joone stiili ja värvi vabalt valitute väärtuste vastu. Muuda taustavärv läbipaistvaks (transparent) peale. 
+
+12. 
+section {
+  max-width: 500px;
+  min-width: 300px;
+}
+
+Määrale sektsiooni laiuseks (width) 250px ning korrigeeri etteantud elemente nii, et need ei oleks vastuolus sektsioonile määratud põhilaiusega.
+
+Vastus:
+
+
+
+13.
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+Joonda flex elemendid (align-items ülesse). Joonda sisu (justify-content) keskele. Määra elementide vahe (gap) 20px peale.
+
+
+
+Vastus:
+
+
+
+14.
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 300px 400px;
+  gap: 20px;
+}
+
+Muuda kõikide tulpade laiused samaks. Muuda elementide vahe (gap) 10px peale. Lisa container'le 10px padding igasse äärde.
+
+Vastus:
+
+
+
+15.
+p {
+  color: #444;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+Muuda teksti värv (color) mustaks. Määra teksti paksuseks (font-weight) 700. Suurenda tähtede vahe (letter-spacing) 3px peale. Suurenda rea kõrgust 130% peale.
+
+Vastus:
+
+
+
+16.
+h1, h2 {
+  font-weight: bold;
+}
+
+Muuda/Lisa koodi selliselt, et H2 pealkiri muutub italic ning fondi paksus 400 peale, H1 ei muutu.
+
+Vastus:
+
+
+
+18. 
+.list li {
+  list-style-type: circle;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+Muuda esimese "bullet'i" (:first-child) stiiliks square. Lisa alla margin 10px. Määra talle taustavärv #EBEBEB;
+
+Vastus:
+
+
+
+19. 
+button {
+  background-color: #007ACC;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+Määra nupule paddingud üles/alla 20px, vasakule/paremale 35px. Lisa piirjoon (border) 1px, vabalt valitud värvi, vabalt valitud stiili. Muuda stiil "hiirega peale minnes muutuvaks" (hover).
+
+Vastus:
+
+
+
+20. 
+input {
+  border: 2px solid #008000;
+  outline: #4CAF50 solid;
+  padding: 8px;
+}
+
+Vaheta joone paksus, värv ja stiil vabalt valitud väärtuste vastu. Määra elemendist väljapoole piirjoone (outline) paksuseks 10px.
+
+Vastus:
+
+
+
+21.
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #FFF;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+Muuda ekraani maksimaalse suuruse väärtus 800px. Määra taustavärviks #FAFAFA. Muuda fondi suurus vabalt valitud suurseks. Määra vasakule ja paremale padding 5%, ülesse/alla vastavalt 30px/80px.
+
+Vastus:
+
+
+
+22.
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #FFF;
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+Muuda ekraani minimaalse suuruse väärtus 450px. Määra taustavärviks #FAFAFA. Muuda fondi suurus vabalt valitud suurseks. Määra vasakule ja paremale padding 3%, ülesse/alla vastavalt 30px/80px.
+
+Vastus:
+
+
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  body {
+    background-color: #FFF;
+    color: #000;
+  }
+}
+
+Muuda koodi selliselt, et vahemikus 600px kuni 900px oleks taustavärv valge. Alla 600px oleks taustavärv must (#000). Üle 900px oleks taustavärv punane (#FF0000).
+
+Fondi suurus 600px kuni 900px vahel oleks 14px. Alla 600px oleks 85%, üle 900px oleks 120%. 
+
+Vastus:
+
+
+
+23.
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+Muuda container laius äärest ääreni, kuid lisa vasakule ja paremale poole 10% padding. Eemalda margini väärtused, et oleks 0 igalt poolelt. Lisa width väärtus 800px. Lisa minimaalse laiuse väärtus.
+
+Vastus:
+
+
+
+24.
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 0px;
+}
+
+Lisa pildile 3px double ümbris (border), vari (box-shadow) ja nurkadesse 15px raadius.
+
+Vastus:
+
+
+
+25.
+.text {
+  font-size: 20px;
+  line-height: 1.6;
+  word-spacing: 2px;
+}
+
+Vähenda alla 800px laiustel ekraanidel fondi suurust 16px peale. Määra reakõrguseks 1.5, vähenda sõnade vahe 0px.
+
+Vastus:
+
+
+
+26.
+.text {
+  font-size: 20px;
+  line-height: 1.6;
+  word-spacing: 2px;
+}
+
+Suurenda üle 1000px laiustel ekraanidel fondi suurust 22px peale. Määra reakõrguseks 1.8, suurenda sõnade vahe 5px´ni.
+
+Vastus:
+
+
+
+27.
+h1 {
+  background: linear-gradient(to right, #F00, #00F);
+  padding: 10px;
+  text-align: center;
+}
+
+Muuda H1 pealkirja gradient must <- valgeks. Määra fondi suurus. Anna pealkirja tekstile värv. Muuda teksti algus vasakust äärest algama.
+
+Vastus:
+
+
+
+28.
+h1, h2 {
+  background: linear-gradient(to right, #F00, #00F);
+  padding: 10px;
+  text-align: center;
+}
+
+Muuda ainult h2 pealkirja gradient must <- valgeks. Määra fondi suurus. Anna pealkirja tekstile värv. Muuda teksti algus vasakust äärest algama.
+
+Muuda h1 puhul need asjad juhtuma ainult siis kui tema peale hiirega peale minna (hover).
+
+Vastus:
+
+
+
+29.
+table {
+  width: 100%;
+  border: 1px solid #CCC;
+}
+
+Muuda tabelis laius 80% ekraanist ning määra mõlemale poole 10% marginit. Ülesse 0px margin, alla 15px margin. Lisa tabelile (table) padding 10px.
+
+Vastus:
+
+
+
+30.
+table, td, th {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 12px;
+}
+
+Muuda tabeli ülemise osa (th) padding 6px 12px. Joonda tekst keskele. 
+Määra tabeli teiste ridade tekstile vasak joondus.
+
+Vastus:
+
+
+
+31.
+tr:nth-child(even) {
+  background-color: #F9F9F9;
+}
+
+Muuda paarisridade puhul taustavärviks #FAFAFA. Lisad paaritute ridade stiil ning määra neile taustavärviks #333 ning teksti värviks valge.
+
+Vastus:
+
+
+
+32.
+tr:hover {
+  background: #EEE;
+  transition: background 0.3s ease-in-out;
+}
+
+Muuda tabeli rea (tr) hiirega peale liikudes (hover) väärtusi vastavalt:
+fondi suurus: 120%
+teksti paksus: 700
+teksti värv: tumehall
+
+Vastus:
+
+
+
+33.
+td:hover {
+  background: #EEE;
+  transition: background 0.3s ease-in-out;
+}
+
+Muuda tabeli rea (td) hiirega peale liikudes (hover) väärtusi vastavalt:
+fondi suurus: vabalt valitud suurus
+teksti paksus: vabalt valitud suurus
+teksti värv: vabalt valitud värv
+
+Vastus:
+
+
+
+34.
+tr:hover {
+  background: #EEE;
+  transition: background 0.3s ease-in-out;
+  font-size: 120%;
+}
+
+Muuda koodi selliselt, et kehtib ainult tabeli esimese rea kohta (first-child).
+fondi suurus: vabalt valitud suurus
+teksti paksus: vabalt valitud suurus
+teksti värv: vabalt valitud värv
+
+Vastus:
+
+
+
+35.
+tr:hover {
+  background: #EEE;
+  transition: background 0.3s ease-in-out;
+  font-size: 120%;
+}
+
+Muuda koodi selliselt, et kehtib ainult tabeli esimese rea kohta (first-child).
+fondi suurus: vabalt valitud suurus
+teksti paksus: vabalt valitud suurus
+teksti värv: vabalt valitud värv
+
+Vastus:
+
+
+
+LISTS
+
+36.
+ul {
+  list-style-type: disc;
+  padding: 10px;
+  margin: 20px;
+}
+
+Muuda nimekirja tüüpi (list-style-type). Lisa ul nimekirjale reakõrgus 125%. Anna nimekirjale taustavärviks mingi hallikas värv. Lisa alla margin 10px.
+
+Vastus:
+
+
+
+37.
+ol {
+  list-style-type: decimal;
+  color: #333;
+  font-size: 16px;
+}
+
+Muuda nimekirja tüüpi (list-style-type). Lisa ol nimekirjale reakõrgus 125%. Anna nimekirjale taustavärviks mingi hallikas värv. Lisa alla margin 12px.
+
+Vastus:
+
+
+
+38.
+ul li {
+  list-style-type: circle;
+}
+
+Muuda nimekirja tüüp (list-style-type) upper-roman vastu. Määra värviks #555. lisa iga li alla margin 3px.
+
+Vastus:
+
+
+
+39.
+li {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  text-align: left;
+}
+
+Muuda fondi stiil "Times New Roman", serif vastu. Vaheta rea kõrgus vabalt valitud suuruse vastu. Määra nimekirjale stiil (list-style-type).
+
+Vastus:
+
+
+
+40.
+li {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+Muuda list-style-position outside. Määra paddinguks 0. Muuda fondi stiil "Times New Roman", serif vastu. Määra reakõrguseks 2.
+
+Vastus:
+
+
+
+41.
+li::before {
+  content: '\261E'; /* Insert content that looks like bullets */
+  padding-right: 5px;
+  color: #000; 
+  font-size: 12px;
+}
+
+Muuda väärtus (content) allapoole näitava käe vastu (https://www.w3schools.com/cssref/css_entities.php) vastu. Määra nii li kui ka li::before teksti värviks #333. Lisa li::before paremasse äärde 2x rohkem ruumi kui 5px praegu on.
+
+Vastus:
+
+
+
+42.
+li:hover {
+  background: #EEE;
+  transition: background 0.3s ease;
+}
+
+Muuda koodi selliselt, et kehtib ainult tabeli esimese rea kohta (first-child).
+Lisa fondi suurus: vabalt valitud suurus
+Lisa teksti paksus: vabalt valitud suurus
+Muuda taustavärvi ning lisa tekstile värv: vabalt valitud värv
+
+Vastus:
+
+
+
+43.
+ul {
+  padding: 5px;
+  border-radius: 4px;
+}
+
+Lisa äärtest sissepoole rohkem ruumi (10px).
+Tee nurgad ümaraks vastavalt parem-üleval/all-vasakul 20px, vasak-üleval/parem-all 5px.
+Lisa taustavärv: vabalt valitud värv
+
+Vastus:
+
+
+
+44.
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+Suurenda nimekirja elemendi alumist vahet 3px.
+Lisa nimekirja elemendile taustavärv: vabalt valitud värv.
+Lisa tekstile värv: vabalt valitud värv.
+Lisa vasakusse äärde 5px ruumi juurde (10px kokku), ilma et teised ääred muutuksid.
+
+Vastus:
+
+
+45.
+li {
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+Muuda kõik nimekirja elemendid algama suure algustähega (capitalize). 
+Muuda nimekirja esimene rida (first-child) suurteks tähtedeks (uppercase). 
+Suurenda tähtede omavahelist vahe 3 korda. 
+
+Vastus:
+
+
+
+45.
+li {
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+Muuda nimekirja viimane rida (last-child) väikesteks tähtedeks (lowercase). 
+Muuda kõik nimekirja paaritud (odd) elemendid algama suure algustähega (capitalize). (kokku on 10 rida)
+Suurenda tähtede omavahelist vahe 2px võrra. 
+
+Vastus:
+
+
+
+46.
+li {
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+Muuda nimekirja viimane rida (last-child) suurteks tähtedeks (lowercase). 
+Muuda kõik nimekirja paarisarvulised (even) elemendid väikesteks tähtedeks (lowercase). (kokku on 10 rida)
+Suurenda tähtede omavahelist vahe 2px võrra. 
+
+Vastus:
+
+
+
+47.
+li {
+  text-transform: none;
+  letter-spacing: 1px;
+}
+
+Muuda kõik nimekirja elemendid algama suure algustähega (capitalize). 
+Muuda nimekirja esimene rida (first-child) suurteks tähtedeks (uppercase). 
+Suurenda tähtede omavahelist vahe 3 korda. 
+
+Lisa elemendile "hiirega peale minnes" (hover) tingimus.
+
+Vastus:
+
+
+
+48.
+.box {
+  position: static;
+  left: 0;
+  top: 0;
+}
+
+Muuda .box positsioon absoluutseks selliselt, et ta asetseks 50px vasakust äärest ning 100px ülemisest äärest. 
+Anna kastile kõrgus ja laius ning taustavärv.
+
+Vastus:
+
+
+
+49.
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+Kus asetseb .container klass hetkel? Kirjeldada ära need 3 väärtust:
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+Vastus:
+
+
+
+50.
+.box {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+Suurenda kasti laiust 600px peale. Määra kastile kõrgus vähemalt 2x suurem kui praegu. Joonda see horisontaalselt keskele kasutades flexbox'i.
+
+Vastus:
+
+
+
+51.
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+Muuda grid selliseks, et oleks 4 tulpa. Pane elementide vaheks 10px (grid-gap). Suurenda esimese tulba laius 2fr peale.
+
+Vastus:
+
+
+
+52.
+.floating {
+  float: left;
+  width: 50%;
+}
+
+Määra elemendile laiuseks 25%. Joonda element paremale. Lisa väärtus clear: none, et elemendid ei läheks üksteise alla kui nad kõrvuti ära mahuvad.
+Lisa elemendile kõrgus ja taustavärv.
+
+Vastus:
+
+
+
+53.
+.floating {
+  float: left;
+  width: 50%;
+}
+
+Tee elemendi laiuseks 100% ekraanist. Joonda elemendi sisu keskele (10% mõlemast äärest). Määra maksimaalseks laiuseks 800px.
+Lisa elemendile taustavärv.
+
+Vastus:
+
+
+
+54.
+.sidebar {
+  position: absolute;
+  width: 250px;
+  height: 100%;
+}
+
+Määra elemendile relative asukoht. Joonda küljepaneel paremasse äärde. Määra tema laiuseks kas 1/4 või 1/4. Maksimaalseks laiuseks 300px. Küljepaneeli sisse määra üles/all 30px, vaskule/paremale 3% vaba ruumi (padding).
+
+Vastus:
+
+
+
+55.
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+Muuda grid-template-columns korduma repeat(3, 1fr). Lisa ridade vahele 20px (row-gap). Määra elementide vahele vahe 30px (gap).
+
+
+
