@@ -26,7 +26,7 @@ p {
   font-size: 20px;
 }
 
-Vaheta tekstilõigu font Times New Roman vastu, tee teksti suuruseks 12px.
+Vaheta tekstilõigu (p) font Times New Roman vastu, tee teksti suuruseks 12px.
 
 Vastus:
 
@@ -65,7 +65,7 @@ a {
   text-decoration: none;
 }
 
-Lisa linkidele alumine joon (undeline) ning muuda värvust. Lisa linkidele taustavärv.
+Lisa linkidele alumine joon (underline) ning muuda värvust. Lisa linkidele taustavärv (background-color).
 
 Vastus:
 
@@ -77,7 +77,7 @@ div {
   height: 100px;
 }
 
-Suurenda laiust (width) 50px võrra ning lisa #000 2px pidevjoon.
+Suurenda laiust (width) 50px võrra ning lisa #000 2px pidevjoon (border).
 Määra ära maksimaalseks div maksimaalseks laiuseks 200px. 
 
 
@@ -115,7 +115,7 @@ Vastus:
   box-shadow: none;
 }
 
-Lisa vari (shadow): 5px horizontal, 5px vertical, 10px blur, and gray color.
+Lisa vari (box-shadow): 5px horizontal, 5px vertical, 10px blur, and gray color.
 
 Anna kastile mõõtmed (kõrgus ja laius).
 
@@ -129,7 +129,7 @@ section {
   min-width: 300px;
 }
 
-Määrale sektsiooni laiuseks (width) 250px ning korrigeeri etteantud elemente nii, et need ei oleks vastuolus sektsioonile määratud põhilaiusega.
+Määrale sektsiooni laiuseks (width) 250px ning korrigeeri etteantud elemente nii, et need ei oleks vastuolus sektsioonile määratud põhilaiusega (width).
 
 Vastus:
 
@@ -257,7 +257,7 @@ Vastus:
   }
 }
 
-Muuda koodi selliselt, et üle 400px oleks taustavärv #FFF. Muuda / Lisa koodi selliselt, et alla 600px oleks taustavärviks #EBEBEB; 
+Muuda koodi selliselt, et üle 400px oleks taustavärv #FFF. Muuda / Lisa koodi selliselt, et üle 600px oleks taustavärviks #EBEBEB; 
 
 Vastus:
 
@@ -295,7 +295,7 @@ img {
   max-width: 400px;
 }
 
-Määra piltide maksimaalseks suuruseks 600px ning lisa piltide ümber pidevjoon 1px solid #000.
+Määra piltide maksimaalseks suuruseks 600px ning lisa piltide ümber pidevjoon 1px solid #000 (border).
 
 Vastus:
 
@@ -321,7 +321,7 @@ Vastus:
   padding: 20px 30px;
 }
 
-Määra kasti läbipaistvuseks 50%. Lisa marginid vastavalt ülesse 30px, alla 20px, külgedele 0px.
+Määra kasti läbipaistvuseks (opacity) 50%. Lisa marginid vastavalt ülesse 30px, alla 20px, külgedele 0px.
 
 Vastus:
 
@@ -332,7 +332,7 @@ div {
   position: relative;
 }
 
-Määra div´le fikseeritud asukoht (fixed) selliselt, et ta asetseks ülemises paremas nurgas (0 px eemal nurgast).
+Määra div´le fikseeritud asukoht (fixed) selliselt, et ta asetseks ülemises paremas nurgas (0px eemal nurgast).
 
 Vastus:
 
